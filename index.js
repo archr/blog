@@ -13,5 +13,5 @@ var blog = new Paperpress({
 
 blog.attach(server);
 
-server.listen(4000);
-console.log('Server running at http://localhost:4000', new Date() );
+server.listen(8080);
+console.log('Server running at http://localhost:8080', new Date() );
