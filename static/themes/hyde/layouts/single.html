@@ -1,0 +1,10 @@
+{% extends './layout.html' %}
+
+{% block content %}
+  <div class="post-single">
+    <h1>{{ article.title }}</h1>
+    <div>{% autoescape false %}
+      {{ article.content }}
+    {% endautoescape %}</div>
+  </div>
+{% endblock %}

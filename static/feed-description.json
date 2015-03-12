@@ -1,0 +1,11 @@
+{
+    "title"       : "antoniosandoval.net",
+    "description" : "This is my personnal feed!",
+    "link"        : "http://antoniosandoval.net",
+    "copyright"   : "Copyright © 2015",
+    "author": {
+        "name" : "Antonio Sandoval",
+        "email": "arche3r@gmail.com",
+        "link" : "https://antoniosandoval.net/"
+    }
+}

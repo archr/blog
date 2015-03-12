@@ -1,0 +1,19 @@
+{% extends './layout.html' %}
+
+{% block content %}
+  <div class="posts">
+    {% for article in articles %}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ article.uri }}">
+            {{ article.title }}
+          </a>
+        </h1>
+
+        {% autoescape false %}
+          {{ article.content }}
+        {% endautoescape %}
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
